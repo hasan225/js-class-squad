@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    border-radius: 20px;
+    grid-gap: 20px;
+    font-weight: 700;
+    font-family: cursive;
+    color: rgb(27, 23, 23);
+}
+
+.info div {
+    background: #fb5200;
+    padding: 3em;
+    border-radius: 20px;
+}
+
